@@ -1,0 +1,81 @@
+body {
+    background-image: url("images/coolbackgrounds-topography-hyphy.svg"); 
+}
+
+main {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 30px;
+    background: #d9ccde; 
+    border-top: 3px solid #64485C;
+    border-radius: 5px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+}
+
+.username {
+    padding-left: 20px;
+    color: #66485C;
+    font-weight: 800;
+    font-size: x-large;
+    margin-right: 10px;
+}
+
+.avatar{
+    width: 70px;
+}
+
+.icon {
+    width: 70px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #3A454D;
+}
+
+nav a {
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+    padding: 30px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+table { 
+    border-collapse: collapse;
+    background-color: white; 
+} 
+
+td, th { 
+    border: 1px solid black; 
+    text-align: left; 
+    padding: 8px; 
+} 
+
+th {
+    background-color: #3A454D;
+    color: white;
+}
+
+tr:nth-child(even) { 
+    background-color: #c2bfc3; 
+}
